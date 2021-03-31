@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		A97E2A9E2614FD9F00A73EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E2A892614FD9D00A73EA8 /* ContentView.swift */; };
 		A97E2A9F2614FD9F00A73EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97E2A8A2614FD9F00A73EA8 /* Assets.xcassets */; };
 		A97E2AA02614FD9F00A73EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97E2A8A2614FD9F00A73EA8 /* Assets.xcassets */; };
+		A97E2AAD2614FDEE00A73EA8 /* trySwiftColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2AAC2614FDEE00A73EA8 /* trySwiftColorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97E2AAD2614FDEE00A73EA8 /* trySwiftColorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +108,9 @@
 			dependencies = (
 			);
 			name = "Demo (iOS)";
+			packageProductDependencies = (
+				A97E2AAC2614FDEE00A73EA8 /* trySwiftColorKit */,
+			);
 			productName = "Demo (iOS)";
 			productReference = A97E2A8F2614FD9F00A73EA8 /* Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +158,9 @@
 				Base,
 			);
 			mainGroup = A97E2A822614FD9D00A73EA8;
+			packageReferences = (
+				A97E2AAB2614FDEE00A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */,
+			);
 			productRefGroup = A97E2A902614FD9F00A73EA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -439,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A97E2AAB2614FDEE00A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/trySwiftColorKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A97E2AAC2614FDEE00A73EA8 /* trySwiftColorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97E2AAB2614FDEE00A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */;
+			productName = trySwiftColorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A97E2A832614FD9D00A73EA8 /* Project object */;
 }
