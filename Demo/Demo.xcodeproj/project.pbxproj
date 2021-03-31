@@ -15,6 +15,8 @@
 		A97E2AA02614FD9F00A73EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97E2A8A2614FD9F00A73EA8 /* Assets.xcassets */; };
 		A97E2AAD2614FDEE00A73EA8 /* trySwiftColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2AAC2614FDEE00A73EA8 /* trySwiftColorKit */; };
 		A97E2AB22614FE0D00A73EA8 /* trySwiftColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2AB12614FE0D00A73EA8 /* trySwiftColorKit */; };
+		A97E2B022615120200A73EA8 /* trySwiftColorKitPro in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2B012615120200A73EA8 /* trySwiftColorKitPro */; };
+		A97E2B062615125F00A73EA8 /* trySwiftColorKitPro in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2B052615125F00A73EA8 /* trySwiftColorKitPro */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97E2AAD2614FDEE00A73EA8 /* trySwiftColorKit in Frameworks */,
+				A97E2B022615120200A73EA8 /* trySwiftColorKitPro in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A97E2AB22614FE0D00A73EA8 /* trySwiftColorKit in Frameworks */,
+				A97E2B062615125F00A73EA8 /* trySwiftColorKitPro in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +124,7 @@
 			name = "Demo (iOS)";
 			packageProductDependencies = (
 				A97E2AAC2614FDEE00A73EA8 /* trySwiftColorKit */,
+				A97E2B012615120200A73EA8 /* trySwiftColorKitPro */,
 			);
 			productName = "Demo (iOS)";
 			productReference = A97E2A8F2614FD9F00A73EA8 /* Demo.app */;
@@ -140,6 +145,7 @@
 			name = "Demo (macOS)";
 			packageProductDependencies = (
 				A97E2AB12614FE0D00A73EA8 /* trySwiftColorKit */,
+				A97E2B052615125F00A73EA8 /* trySwiftColorKitPro */,
 			);
 			productName = "Demo (macOS)";
 			productReference = A97E2A972614FD9F00A73EA8 /* Demo.app */;
@@ -173,6 +179,7 @@
 			mainGroup = A97E2A822614FD9D00A73EA8;
 			packageReferences = (
 				A97E2AAB2614FDEE00A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */,
+				A97E2B002615120200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKitPro" */,
 			);
 			productRefGroup = A97E2A902614FD9F00A73EA8 /* Products */;
 			projectDirPath = "";
@@ -470,6 +477,14 @@
 				kind = branch;
 			};
 		};
+		A97E2B002615120200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKitPro" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/trySwiftColorKitPro";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -482,6 +497,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A97E2AAB2614FDEE00A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */;
 			productName = trySwiftColorKit;
+		};
+		A97E2B012615120200A73EA8 /* trySwiftColorKitPro */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97E2B002615120200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKitPro" */;
+			productName = trySwiftColorKitPro;
+		};
+		A97E2B052615125F00A73EA8 /* trySwiftColorKitPro */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97E2B002615120200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKitPro" */;
+			productName = trySwiftColorKitPro;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -6,7 +6,16 @@
         "repositoryURL": "https://github.com/danielsaidi/trySwiftColorKit.git",
         "state": {
           "branch": "main",
-          "revision": "3534e539c52ef1118c84190c34c29b8566940368",
+          "revision": "957a114f0975395e3dd15418a0c5cc86f3655788",
+          "version": null
+        }
+      },
+      {
+        "package": "trySwiftColorKitPro",
+        "repositoryURL": "https://github.com/danielsaidi/trySwiftColorKitPro",
+        "state": {
+          "branch": "main",
+          "revision": "a6c419dcfd88629cb7b084db323dd93df25fed12",
           "version": null
         }
       }
