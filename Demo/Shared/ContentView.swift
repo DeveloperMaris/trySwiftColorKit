@@ -10,8 +10,11 @@ import trySwiftColorKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color.deepRed.edgesIgnoringSafeArea(.all)
+            Text("Hello, world!")
+                .padding()
+        }
     }
 }
 
