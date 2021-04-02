@@ -7,7 +7,11 @@
 
 import SwiftUI
 import trySwiftColorKit
+#if os(iOS)
 import trySwiftColorKitPro
+#elseif os(macOS)
+import trySwiftColorKitPro_macOS
+#endif
 
 struct ContentView: View {
     var body: some View {
